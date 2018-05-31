@@ -52,41 +52,41 @@ const books = [
     {
         "title" : "Mr. Fox",
         "author" : "Helen Oyeyemi",
-        "cover" : "",
+        "cover" : "http://www.full-stop.net/wp-content/uploads/2012/01/Mr-Fox-Helen-Oyeyemi-Penguin.jpeg",
     },
     {
         "title" : "The Immortalists",
         "author" : "Chloe Benjamin",
-        "cover" : "",
+        "cover" : "https://images-na.ssl-images-amazon.com/images/I/91NmVdhZX0L.jpg",
     },
     {
         "title" : "The Year of the Flood",
         "author" : "Margaret Atwood",
-        "cover" : "",
+        "cover" : "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/The_Year_of_the_Flood-cover-1stEd-HC.jpeg/220px-The_Year_of_the_Flood-cover-1stEd-HC.jpeg",
     },
     {
         "title" : "The Left Hand of Darkness",
         "author" : "Ursula K. Le Guin",
-        "cover" : "",
+        "cover" : "https://bloximages.chicago2.vip.townnews.com/dailyuw.com/content/tncms/assets/v3/editorial/3/c2/3c22c40a-fcec-11e7-9cd0-afc065ba665a/5a61a158bec82.image.jpg",
     },
     {
         "title" : "Red Clocks",
         "author" : "Leni Zumas",
-        "cover" : "",
+        "cover" : "https://images.gr-assets.com/books/1494345016l/35099035.jpg",
     },
     {
         "title" : "Hollow",
         "author" : "Owen Egerton",
-        "cover" : "",
+        "cover" : "https://images-na.ssl-images-amazon.com/images/I/41L-ZwPAnVL._SX331_BO1,204,203,200_.jpg",
     },
     {
         "title" : "Lotus",
         "author" : "Lijia Zhang",
-        "cover" : "",
+        "cover" : "https://media.npr.org/assets/bakertaylor/covers/l/lotus/9781627795661_custom-e35af7fcf488f1f2e4b0de8d79188d78e6885259-s300-c85.jpg",
     },
     {
         "title" : "Sunshine State",
         "author" : "Sarah Gerard",
-        "cover" : "",
+        "cover" : "https://images.gr-assets.com/books/1470025018l/30653587.jpg",
     },
 ]
