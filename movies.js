@@ -1,30 +1,340 @@
-const movies = [
+var movies = [
     {
-        "title" : "Good Time",
-        "director: "The Safide Brothers",
-        "poster" : "https://ia.media-imdb.com/images/M/MV5BNGQ3Y2VjNmUtMDdiMC00YTE1LWI5NmUtZDIzMTJmODQyNDU4XkEyXkFqcGdeQXVyNTAzMTY4MDA@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
+        "title" : "Darkest Hour",
+        "type" : "Movie",
+        "date" : "January, 2018",
+        "rating": 4,
     },
-        {
-        "title" : "Song to Song",
-        "director: "Terrence Malick",
-        "poster" : "https://ia.media-imdb.com/images/M/MV5BNzI1MTg0MzEyOF5BMl5BanBnXkFtZTgwNzk4Mjk0MTI@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
+    {
+        "title" : "It Comes At Night",
+        "type" : "Movie",
+        "date" : "January, 2018",
+        "rating": 4,
     },
-        {
-        "title" : "American Made",
-        "director: "Doug Liman",
-        "poster" : "https://ia.media-imdb.com/images/M/MV5BMTUxNzUwMjk1Nl5BMl5BanBnXkFtZTgwNDkwODI1MjI@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    {
+        "title" : "A Ghost Story ",
+        "type" : "Movie",
+        "date" : "January, 2018",
+        "rating": 4,
     },
-        {
-        "title" : "",
-        "director: "",
-        "poster" : " ",
+    {
+        "title" : "The Post",
+        "type" : "Movie",
+        "date" : "January, 2018",
+        "rating": 2.5,
     },
-        {
-        "title" : "",
-        "director: "",
-        "poster" : " ",
+    {
+        "title" : "The Shape of Water",
+        "type" : "Movie",
+        "date" : "Janurary, 2018",
+        "rating": 5,
     },
-    
-    
-]
-
+    {
+        "title" : "Phantom Thread",
+        "type" : "Movie",
+        "date" : "January, 2018",
+        "rating": 4,
+    },
+    {
+        "title" : "Call Me By Your Name",
+        "type" : "Movie",
+        "date" : "February, 2018",
+        "rating": 4.5,
+    },
+    {
+        "title" : "Single White Female ",
+        "type" : "Movie",
+        "date" : "February, 2018",
+        "rating": 4,
+    },
+    {
+        "title" : "Black Panther",
+        "type" : "Movie",
+        "date" : "February, 2018",
+        "rating": 4,
+    },
+    {
+        "title" : "Annihilation",
+        "type" : "Movie",
+        "date" : "February, 2018",
+        "rating": 4.5,
+    },
+    {
+        "title" : "Logan Lucky",
+        "type" : "Movie",
+        "date" : "February, 2018",
+        "rating": 4.5,
+    },
+    {
+        "title" : "I, Tonya",
+        "type" : "Movie",
+        "date" : "February, 2018",
+        "rating": 5,
+    },
+    {
+        "title" : "Valerian and the City of 1000 Planets",
+        "type" : "Movie",
+        "date" : "March, 2018",
+        "rating": 2,
+    },
+    {
+        "title" : "Thor Ragnarock",
+        "type" : "Movie",
+        "date" : "March, 2018",
+        "rating": 5,
+    },
+    {
+        "title" : "Wizards",
+        "type" : "Movie",
+        "date" : "March, 2018",
+        "rating": 3,
+    },
+    {
+        "title" : "Animal Farm",
+        "type" : "Movie",
+        "date" : "March, 2018",
+        "rating": 2.5,
+    },
+    {
+        "title" : "Moon",
+        "type" : "Movie",
+        "date" : "March, 2018",
+        "rating": 4,
+    },
+    {
+        "title" : "Frances Ha",
+        "type" : "Movie",
+        "date" : "March, 2018",
+        "rating": 4.5,
+    },
+    {
+        "title" : "Ready Player One",
+        "type" : "Movie",
+        "date" : "March, 2018",
+        "rating": 3,
+    },
+    {
+        "title" : "Julie & Julia",
+        "type" : "Movie",
+        "date" : "April, 2018",
+        "rating": 3.5,
+    },
+    {
+        "title" : "Howl's Moving Castle",
+        "type" : "Movie",
+        "date" : "April, 2018",
+        "rating": 4.5,
+    },
+    {
+        "title" : "Isle of Dogs",
+        "type" : "Movie",
+        "date" : "April, 2018",
+        "rating": 4,
+    },
+    {
+        "title" : "Avengers: Infinity War",
+        "type" : "Movie",
+        "date" : "April,2018",
+        "rating": 4,
+    },
+    {
+        "title" : "The Florida Project",
+        "type" : "Movie",
+        "date" : "April, 2018",
+        "rating": 4,
+    },
+    {
+        "title" : "Ex Libris: The New York Public Library",
+        "type" : "Movie",
+        "date" : "May, 2018",
+        "rating": 4,
+    },
+    {
+        "title" : "A Quiet Place",
+        "type" : "Movie",
+        "date" : "May, 2018",
+        "rating": 4.5,
+    },
+    {
+        "title" : "A Futile and Stupid Gesture",
+        "type" : "Movie",
+        "date" : "May, 2018",
+        "rating": 3,
+    },
+    {
+        "title" : "Deadpool 2",
+        "type" : "Movie",
+        "date" : "May, 2018",
+        "rating": 4,
+    },
+    {
+        "title" : "Solo: A Star Wars Story",
+        "type" : "Movie",
+        "date" : "May, 2018",
+        "rating": 4,
+    },
+    {
+        "title" : "Mrs. Caliban",
+        "type" : "Book",
+        "date" : "January, 2018",
+        "rating" : 3,
+    },
+    {
+        "title" : "Hag-Seed",
+        "type" : "Book",
+        "date" : "January, 2018",
+        "rating" : 4,
+    }, {
+        "title" : "The Story of My Teeth",
+        "type" : "Book",
+        "date" : "January, 2018",
+        "rating" : 3,
+    }, {
+        "title" : "The Idiot",
+        "type" : "Book",
+        "date" : "January, 2018",
+        "rating" : 5,
+    }, {
+        "title" : "You Too Can Have a Body Like Mine",
+        "type" : "Book",
+        "date" : "January, 2018",
+        "rating" : 4.5,
+    }, {
+        "title" : "The Answers",
+        "type" : "Book",
+        "date" : "January, 2018",
+        "rating" : 4,
+    }, {
+        "title" : "The Bees",
+        "type" : "Book",
+        "date" : "January, 2018",
+        "rating" : 4,
+    }, {
+        "title" : "Animal Farm",
+        "type" : "Book",
+        "date" : "February, 2018",
+        "rating" : 4.5,
+    }, {
+        "title" : "The Mark of The Beast",
+        "type" : "Book",
+        "date" : "February, 2018",
+        "rating" : 2.5,
+    }, {
+        "title" : "The Underground Railroad",
+        "type" : "Book",
+        "date" : "February, 2018",
+        "rating" : 5,
+    }, {
+        "title" : "The Time Machine",
+        "type" : "Book",
+        "date" : "February, 2018",
+        "rating" : 3,
+    }, {
+        "title" : "Loner",
+        "type" : "Book",
+        "date" : "February, 2018",
+        "rating" : 3.5,
+    }, {
+        "title" : "The Dogs of Littlefield",
+        "type" : "Book",
+        "date" : "February, 2018",
+        "rating" : 3,
+    }, {
+        "title" : "Borne",
+        "type" : "Book",
+        "date" : "March, 2018",
+        "rating" : 4,
+    }, {
+        "title" : "The Hound of the Baskervilles",
+        "type" : "Book",
+        "date" : "March, 2018",
+        "rating" : 3.5,
+    }, {
+        "title" : "Ex Libris",
+        "type" : "Book",
+        "date" : "March, 2018",
+        "rating" : 5,
+    }, {
+        "title" : "'Salem's Lot",
+        "type" : "Book",
+        "date" : "March, 2018",
+        "rating" : 5,
+    }, {
+        "title" : "The Psycopath Test",
+        "type" : "Book",
+        "date" : "March, 2018",
+        "rating" : 5,
+    }, {
+        "title" : "The Sasquatch Hunter's Almanac",
+        "type" : "Book",
+        "date" : "March, 2018",
+        "rating" : 3,
+    }, {
+        "title" : "The Housekeeper",
+        "type" : "Book",
+        "date" : "March, 2018",
+        "rating" : 3,
+    }, {
+        "title" : "Wintersong",
+        "type" : "Book",
+        "date" : "March, 2018",
+        "rating" : 3.5,
+    }, {
+        "title" : "The Empty Glass",
+        "type" : "Book",
+        "date" : "March, 2018",
+        "rating" : 2.5,
+    }, {
+        "title" : "Never Let Me Go",
+        "type" : "Book",
+        "date" : "April, 2018",
+        "rating" : 4.5,
+    },
+    {
+        "title" : "The Broom of the System",
+        "type" : "Book",
+        "date" : "April, 2018",
+        "rating" : 4,
+    }, {
+        "title" : "Arcadia",
+        "type" : "Book",
+        "date" : "April, 2018",
+        "rating" : 4,
+    }, {
+        "title" : "Shades of Grey",
+        "type" : "Book",
+        "date" : "April, 2018",
+        "rating" : 4,
+    }, {
+        "title" : "Future Home of the Living God",
+        "type" : "Book",
+        "date" : "May, 2018",
+        "rating" : 3,
+    }, {
+        "title" : "Them",
+        "type" : "Book",
+        "date" : "May, 2018",
+        "rating" : 5,
+    }, {
+        "title" : "The Interestings",
+        "type" : "Book",
+        "date" : "May, 2018",
+        "rating" : 5,
+    }, {
+        "title" : "So You've Been Publicaly Shamed",
+        "type" : "Book",
+        "date" : "May, 2018",
+        "rating" : 4,
+    }, {
+        "title" : "The Polysyllabic Spree",
+        "type" : "Book",
+        "date" : "May, 2018",
+        "rating" : 3.5,
+    }, {
+        "title" : "The Plant Messiah",
+        "type" : "Book",
+        "date" : "May, 2018",
+        "rating" : 4,
+    }
+ 
+];

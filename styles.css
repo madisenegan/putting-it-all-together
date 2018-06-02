@@ -1,0 +1,35 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar-brand {
+    font-size: 35px;
+    font-family: 'Special Elite', cursive;
+}
+
+h5 {
+    font-family: 'Special Elite', cursive;
+    padding-left: 60px;
+    font-weight: bold;
+}
+.nav-link {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.card-img-top {
+    height: 25rem;
+}
+.card-title {
+    font-style: italic;
+}
+.card-text {
+    font-size: 15px;
+}
+.form-group label {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: -20px;
+    font-family: 'Special Elite', cursive;
+}
+
